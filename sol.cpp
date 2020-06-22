@@ -7,10 +7,8 @@ using namespace std;
 void decode() {
 	int a[100], n;
 	cin >> n;
-	int mn = INT_MAX;
 	for(int i = 0; i < n; ++i) {
 		cin >> a[i];
-		mn = min(mn, a[i]);
 	}
 	bool ok = true;
 	sort(a, a + n);
